@@ -21,9 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://16.171.31.82:9000</sonar.host.url>
-        <sonar.login>admin</sonar.login>
-        <sonar.password>devops</sonar.password>
+		<sonar.host.url>http://172.31.24.207:9000</sonar.host.url>
+        <sonar.login>squ_c45da990a05739dcca430c03ad30006849108796</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Release</name>
-	      <url>http://54.255.223.73:8081/repository/metlife-releases/</url>
+	      <url>http://172.31.23.24:8081/repository/metlife-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>SNAPSHOT</name>
-	      <url>http://54.255.223.73:8081/repository/metlife-snapshot/</url>
+	      <url>http://172.31.23.24:8081/repository/metlife-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
